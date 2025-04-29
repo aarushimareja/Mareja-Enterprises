@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mareja Enterprises - Agricultural Solutions Provider</title>
+    <meta name="description" content="Mareja Enterprises is a leading wholesale and retail distributor of agricultural inputs including pesticides, fertilizers, and seeds in Sangaria, Rajasthan.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="#home" class="logo">
+                    <img src="assets/logo.svg" alt="Mareja Enterprises Logo">
+                    <span>Mareja Enterprises</span>
+                </a>
+            </div>
+            <nav id="nav-menu">
+                <div class="mobile-menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>From Seed to Harvest, We're With You Every Step of the Way</h1>
+                    <p>Mareja Enterprises is a trusted agricultural solutions provider offering high-quality fertilizers, pesticides, seeds, and insurance services to farmers in Rajasthan</p>
+                    <div class="hero-btns">
+                        <a href="#products" class="btn btn-primary">Explore Products</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Using SVG as background in CSS -->
+                </div>
+            </div>
+            <div class="wave-separator">
+                <img src="assets/wave-separator.svg" alt="Wave Separator">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Mareja Enterprises</h2>
+                    <p>Your trusted partner in agricultural success</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to Mareja Enterprises, a trusted agricultural solutions provider based in Sangaria, Rajasthan. Under the leadership of Mr. Ranjeev Mareja, a graduate in B.Sc. Biology, we specialize in the wholesale and retail distribution of high-quality fertilizers, pesticides, seeds, and insurance services. Our commitment to farmers and the agricultural community drives everything we do.</p>
+                        <p>For many years, Mareja Enterprises has built a solid reputation by distributing top-quality agricultural products from leading brands, such as Coromandel International, PI Industries, Mahyco Seeds, Swal Corporation, and Tata Rallis, among others.</p>
+                        <p>We are also deeply involved in contract farming programs for Barley with United Breweries and for Oats and Potatoes with PepsiCo India, providing farmers with the resources, training, and expertise to succeed. Our efforts include regular farmer meetings, workshops, and field activities, ensuring that knowledge flows directly to those who need it the most.</p>
+                        <p>At Mareja Enterprises, we don't just sell products; we are committed to supporting farmers in every stage of their farming journey.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Farmer in field">
+                    </div>
+                </div>
+                
+                <div class="mission-box">
+                    <div class="mission-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="mission-content">
+                        <h3>Our Mission</h3>
+                        <p>To empower farmers with quality inputs, knowledge, and financial security for sustainable growth.</p>
+                    </div>
+                </div>
+                
+                <div class="values">
+                    <div class="value-card">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Trust</h3>
+                        <p>Building lasting relationships with farmers through honesty and reliability</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-award"></i>
+                        <h3>Quality</h3>
+                        <p>Providing only genuine, high-quality agricultural products</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Support</h3>
+                        <p>Commitment to farmers' growth and prosperity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Products</h2>
+                    <p>High-quality agricultural inputs for successful farming</p>
+                </div>
+                
+                <div class="product-categories">
+                    <div class="category-nav">
+                        <button class="category-btn active" data-category="fertilizers">Fertilizers</button>
+                        <button class="category-btn" data-category="pesticides">Pesticides</button>
+                        <button class="category-btn" data-category="seeds">Seeds</button>
+                        <button class="category-btn" data-category="financial">Financial Services</button>
+                    </div>
+                    
+                    <div class="product-list">
+                        <!-- Fertilizers Category -->
+                        <div class="product-category active" id="fertilizers">
+                            <div class="product-grid">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/dap.png" alt="DAP Fertilizer">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>DAP</h3>
+                                        <p>Diammonium Phosphate - Essential for plant growth and development</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/urea.png" alt="Urea Fertilizer">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Urea</h3>
+                                        <p>High nitrogen content for improved crop yield and quality</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/mop.png" alt="MOP Fertilizer">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>MOP</h3>
+                                        <p>Muriate of Potash - Essential for water regulation and enzyme activation</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/npk.png" alt="NPK Fertilizer">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>NPK</h3>
+                                        <p>Balanced formula providing Nitrogen, Phosphorus and Potassium</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Pesticides Category -->
+                        <div class="product-category" id="pesticides">
+                            <div class="product-grid">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/insecticides.png" alt="Insecticides">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Insecticides</h3>
+                                        <p>Protection against harmful insects and pests</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/herbicides.png" alt="Herbicides">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Herbicides</h3>
+                                        <p>Effective weed control for better crop growth</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/fungicides.png" alt="Fungicides">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Fungicides</h3>
+                                        <p>Protection against fungal diseases and infections</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Seeds Category -->
+                        <div class="product-category" id="seeds">
+                            <div class="product-grid">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/cotton_seeds.png" alt="Bt Cotton Seeds">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Bt Cotton Seeds</h3>
+                                        <p>High-yielding cotton varieties with pest resistance</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.09_2ab40376_1745950013366.jpg" alt="Wheat Seeds">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Wheat Seeds</h3>
+                                        <p>Premium wheat varieties for optimal yields</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/mustard_seeds.png" alt="Mustard Seeds">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Mustard Seeds</h3>
+                                        <p>High oil content varieties for better returns</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/vegetable_seeds.png" alt="Vegetable Seeds">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Vegetable Seeds</h3>
+                                        <p>Diverse range of high-quality vegetable seeds</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Financial Services Category -->
+                        <div class="product-category" id="financial">
+                            <div class="product-grid">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/life_insurance.png" alt="Life Insurance">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Life Insurance</h3>
+                                        <p>Secure your family's future with reliable life insurance plans</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/health_insurance.png" alt="Health Insurance">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Health Insurance</h3>
+                                        <p>Comprehensive health coverage for you and your family</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/cattle_insurance_new.png" alt="Cattle Insurance">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Cattle Insurance</h3>
+                                        <p>Protect your livestock investment against unforeseen losses</p>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="assets/products/mutual_funds_new.png" alt="Mutual Funds">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Mutual Funds</h3>
+                                        <p>Grow your wealth with expert investment solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="brands-section">
+                    <h3>Our Trusted Brand Partners</h3>
+                    <div class="brand-logos">
+                        <div class="brand">
+                            <span>Coromandel International</span>
+                        </div>
+                        <div class="brand">
+                            <span>PI Industries</span>
+                        </div>
+                        <div class="brand">
+                            <span>UPL Group</span>
+                        </div>
+                        <div class="brand">
+                            <span>Tata Rallis</span>
+                        </div>
+                        <div class="brand">
+                            <span>Mahyco Seeds</span>
+                        </div>
+                        <div class="brand">
+                            <span>Nuziveedu Seeds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Supporting farmers beyond product sales</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Contract Farming</h3>
+                        <p>We facilitate contract farming programs in partnership with major corporations like United Breweries Limited for Barley and PepsiCo India Holdings Pvt Ltd for Oats and Potato, providing farmers with guaranteed markets and technical support.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Farmer Education</h3>
+                        <p>Regular farmer meetings and field training sessions are organized across villages to support farmers with technical knowledge and best practices in modern agriculture.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Insurance Services</h3>
+                        <p>Comprehensive insurance services including life, health, stock, cattle, and marine insurance through collaborations with leading financial companies like LIC, SBI Life, Tata AIA, and IFFCO Tokio General Insurance.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Financial Planning</h3>
+                        <p>Expert guidance on mutual funds and investment planning to help farmers secure their financial future and grow their wealth.</p>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <h3>Partner With Us for Your Farming Success</h3>
+                    <p>Join thousands of satisfied farmers who trust Mareja Enterprises for quality agricultural solutions</p>
+                    <a href="#contact" class="btn btn-primary">Contact Us Today</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Gallery</h2>
+                    <p>Our engagement with the farming community</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.08_7870b7a5_1745949979225.jpg" alt="Product display at an agricultural event">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Product Display</h3>
+                                <p>Showcasing our agricultural products at a farmer event</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.08_cd1e743f_1745949989080.jpg" alt="Farmer gathering at an educational event">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Farmer Gathering</h3>
+                                <p>Educational session on agricultural best practices</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.11_31e1cbb6_1745950056109.jpg" alt="Farmer training session">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Training Session</h3>
+                                <p>Knowledge-sharing with local farmers</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.11_eb591948_1745950062470.jpg" alt="Small group training on agricultural techniques">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Small Group Training</h3>
+                                <p>Focused training on advanced farming techniques</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.10_a46b6019_1745950032172.jpg" alt="Fertilizer product - Bhartiya Jan Urvarak Pariyojna">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Quality Fertilizers</h3>
+                                <p>Bhartiya Jan Urvarak Pariyojna - Triple Superphosphate Fertilizer</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.10_c040ab8d_1745950047719.jpg" alt="Fertilizer product - Blue bag">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Premium Fertilizers</h3>
+                                <p>High-quality agricultural inputs for better yields</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Us</h2>
+                    <p>We're here to assist you with all your agricultural needs</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Our Location</h3>
+                                <p>Mareja Enterprises</p>
+                                <p>61- Old Anaj Mandi,</p>
+                                <p>Sangaria - 335063,</p>
+                                <p>District Hanumangarh,</p>
+                                <p>Rajasthan, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Proprietor</h3>
+                                <p>Ranjeev Mareja</p>
+                                <p>B.Sc. (Biology)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Contact Details</h3>
+                                <p>Mobile: <a href="tel:+918740000351">+91 8740000351</a></p>
+                                <p>Email: <a href="mailto:rkmareja@gmail.com">rkmareja@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Sunday: 9:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <h3>Find Us Here</h3>
+                        <div class="map-container">
+                            <img src="attached_assets/WhatsApp Image 2025-04-29 at 22.12.09_893170d2_1745949998529.jpg" alt="Map showing Mareja Enterprises location in Sangaria, Rajasthan">
+                            <div class="map-overlay">
+                                <div class="map-info">
+                                    <p>Main market sangriya, Sangaria,</p>
+                                    <p>Rajasthan 335063, India</p>
+                                    <p>Coordinates: 29.792565°, 74.463828°</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Mareja Enterprises Logo">
+                    <p>Mareja Enterprises</p>
+                    <p class="tagline">From Seed to Harvest, We're With You Every Step of the Way</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-products">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li><a href="#fertilizers">Fertilizers</a></li>
+                        <li><a href="#pesticides">Pesticides</a></li>
+                        <li><a href="#seeds">Seeds</a></li>
+                        <li><a href="#financial">Financial Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 61- Old Anaj Mandi, Sangaria - 335063, Rajasthan</p>
+                    <p><i class="fas fa-phone-alt"></i> <a href="tel:+918740000351">+91 8740000351</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:rkmareja@gmail.com">rkmareja@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mareja Enterprises. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

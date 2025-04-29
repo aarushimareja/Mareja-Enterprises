@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f5" />
+      <stop offset="100%" stop-color="#e0e0e0" />
+    </linearGradient>
+    <linearGradient id="leaf-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60ad5e" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#2e7d32" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  
+  <!-- Pattern Elements -->
+  <g opacity="0.1">
+    <!-- Stylized Wheat Pattern -->
+    <g transform="translate(100, 100)">
+      <path d="M20,0 L0,150" stroke="#795548" stroke-width="2" />
+      <path d="M20,30 L40,0" stroke="#795548" stroke-width="1" />
+      <path d="M20,50 L50,30" stroke="#795548" stroke-width="1" />
+      <path d="M20,70 L55,50" stroke="#795548" stroke-width="1" />
+      <path d="M20,90 L60,70" stroke="#795548" stroke-width="1" />
+      <path d="M20,110 L55,90" stroke="#795548" stroke-width="1" />
+      <path d="M20,130 L45,110" stroke="#795548" stroke-width="1" />
+      <path d="M20,150 L30,140" stroke="#795548" stroke-width="1" />
+    </g>
+    
+    <!-- Replicate the wheat pattern -->
+    <g transform="translate(250, 50)">
+      <path d="M20,0 L0,150" stroke="#795548" stroke-width="2" />
+      <path d="M20,30 L40,0" stroke="#795548" stroke-width="1" />
+      <path d="M20,50 L50,30" stroke="#795548" stroke-width="1" />
+      <path d="M20,70 L55,50" stroke="#795548" stroke-width="1" />
+      <path d="M20,90 L60,70" stroke="#795548" stroke-width="1" />
+      <path d="M20,110 L55,90" stroke="#795548" stroke-width="1" />
+      <path d="M20,130 L45,110" stroke="#795548" stroke-width="1" />
+      <path d="M20,150 L30,140" stroke="#795548" stroke-width="1" />
+    </g>
+    
+    <g transform="translate(400, 150)">
+      <path d="M20,0 L0,150" stroke="#795548" stroke-width="2" />
+      <path d="M20,30 L40,0" stroke="#795548" stroke-width="1" />
+      <path d="M20,50 L50,30" stroke="#795548" stroke-width="1" />
+      <path d="M20,70 L55,50" stroke="#795548" stroke-width="1" />
+      <path d="M20,90 L60,70" stroke="#795548" stroke-width="1" />
+      <path d="M20,110 L55,90" stroke="#795548" stroke-width="1" />
+      <path d="M20,130 L45,110" stroke="#795548" stroke-width="1" />
+      <path d="M20,150 L30,140" stroke="#795548" stroke-width="1" />
+    </g>
+    
+    <g transform="translate(550, 50)">
+      <path d="M20,0 L0,150" stroke="#795548" stroke-width="2" />
+      <path d="M20,30 L40,0" stroke="#795548" stroke-width="1" />
+      <path d="M20,50 L50,30" stroke="#795548" stroke-width="1" />
+      <path d="M20,70 L55,50" stroke="#795548" stroke-width="1" />
+      <path d="M20,90 L60,70" stroke="#795548" stroke-width="1" />
+      <path d="M20,110 L55,90" stroke="#795548" stroke-width="1" />
+      <path d="M20,130 L45,110" stroke="#795548" stroke-width="1" />
+      <path d="M20,150 L30,140" stroke="#795548" stroke-width="1" />
+    </g>
+    
+    <g transform="translate(700, 120)">
+      <path d="M20,0 L0,150" stroke="#795548" stroke-width="2" />
+      <path d="M20,30 L40,0" stroke="#795548" stroke-width="1" />
+      <path d="M20,50 L50,30" stroke="#795548" stroke-width="1" />
+      <path d="M20,70 L55,50" stroke="#795548" stroke-width="1" />
+      <path d="M20,90 L60,70" stroke="#795548" stroke-width="1" />
+      <path d="M20,110 L55,90" stroke="#795548" stroke-width="1" />
+      <path d="M20,130 L45,110" stroke="#795548" stroke-width="1" />
+      <path d="M20,150 L30,140" stroke="#795548" stroke-width="1" />
+    </g>
+    
+    <!-- Leaf Patterns -->
+    <g transform="translate(900, 200)">
+      <path d="M0,0 C30,30 60,40 60,80 C60,120 30,130 0,160 C-30,130 -60,120 -60,80 C-60,40 -30,30 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(1100, 100)">
+      <path d="M0,0 C30,30 60,40 60,80 C60,120 30,130 0,160 C-30,130 -60,120 -60,80 C-60,40 -30,30 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(1300, 220)">
+      <path d="M0,0 C30,30 60,40 60,80 C60,120 30,130 0,160 C-30,130 -60,120 -60,80 C-60,40 -30,30 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <!-- Add more pattern elements at the bottom -->
+    <g transform="translate(150, 600)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(350, 650)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(550, 620)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(750, 670)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(950, 630)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(1150, 650)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+    
+    <g transform="translate(1350, 620)">
+      <path d="M0,0 C20,20 40,25 40,50 C40,75 20,80 0,100 C-20,80 -40,75 -40,50 C-40,25 -20,20 0,0 Z" fill="url(#leaf-gradient)" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .leaf { fill: #2e7d32; }
+    .stem { fill: #795548; }
+    .circle { fill: #f5f5f5; }
+  </style>
+  <circle class="circle" cx="100" cy="100" r="90" />
+  <path class="stem" d="M100,180 C100,180 100,140 100,100 C100,60 100,20 100,20" stroke-width="8" stroke="#795548" fill="none" />
+  <path class="leaf" d="M100,20 C130,50 160,60 160,100 C160,140 130,150 100,180 C70,150 40,140 40,100 C40,60 70,50 100,20 Z" />
+  <path class="stem" d="M70,90 C90,70 110,70 130,90" stroke-width="4" stroke="#795548" fill="none" />
+  <path class="stem" d="M70,110 C90,130 110,130 130,110" stroke-width="4" stroke="#795548" fill="none" />
+</svg>
